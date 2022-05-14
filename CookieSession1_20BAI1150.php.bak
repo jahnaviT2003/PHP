@@ -1,0 +1,10 @@
+
+<html> 
+<head> <title>20BAI1150-JAHNAVI THONDEPU</title> 
+</head> 
+<body> 
+<?php
+  echo "Cookies are disabled.";
+ ?> 
+</body> 
+</html> 

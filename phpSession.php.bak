@@ -1,0 +1,20 @@
+<?php
+// start a new session
+session_start();
+// Check if the session name exists
+if( isset($_SESSION['name']) ) {
+echo 'Session name is set.'.'<br>';
+}
+else {
+echo 'Session name not set!'.'<br>';
+}
+echo'<br>';
+$_SESSION['name'] = 'Haley';
+//unset($_SESSION['name']);
+echo "Session Name : ".$_SESSION['name'].'<br>';
+?>
+<html>  
+<head> 
+<title>20BAI1150-JAHNAVI THONDEPU</title> 
+</head> 
+</html> 

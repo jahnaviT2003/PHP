@@ -1,0 +1,12 @@
+<?php
+
+//Create the session.
+session_start(); 
+//Delete the session Variable.
+session_destroy(); 
+?>
+<html>  
+<head> 
+<title>20BAI1150-JAHNAVI THONDEPU</title> 
+</head> 
+</html> 
